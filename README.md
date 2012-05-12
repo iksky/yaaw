@@ -20,6 +20,8 @@ Usage
 
 Tips
 ----
+aria2c --event-poll=select --dir=/mnt/sda2/home/ --enable-rpc --rpc-listen-all=true --rpc-allow-origin-all -c -D
+--rpc-listen-all=true --rpc-allow-origin-all -c -D
 * All your settings on web is temporary. **Settings will be lost after aria2 restarted.**
 * Tasks(including which is not finished) will be lost after aria2 restarted. Using `--save-session=SOME/WHERE` and reload with `--continue=ture --input-file=SOME/WHERE` to continue.
 * Using `$HOME/.aria2/aria2.conf` to save your options.
